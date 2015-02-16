@@ -1,39 +1,50 @@
-
-#title {
-	background-color: red;
-	text-align: center;
-	font-family: fantasy;
+html {
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bold;
 }
-#container {
-	background-color: green;
+
+.header {
+	text-align: center;
+	font-size:46px;
+}
+.content {
 	margin: 0px 0px 35px 160px;
 	padding: 1px 10px;
 	width: 980px;
 	float:left;
+	font-size: 14px;
 }
-#menu h3 {margin-left: 50px;
+h3.navigation {
+	margin-left: 50px;
 }
-nav {
-	background-color: blueviolet;
+.navigation {
 	display: block;
 	float: left;
 	width: 150px;
 	height: 170px;
 	position: fixed;
+	font-size: 12px;
 }
-aside {
-	background-color: deeppink;
+.sidebar {
 	float: right;
 	width:175px;
 	height: 170px;
+	font-size: 10px;
 	}
 article {
-	background-color: chartreuse;
 	padding-left: 10px;
 	min-height: 480px;
 	margin: 30px;
 }
-footer {
-	background-color: yellow;
+.footer {
 	clear: both;
+	text-align: center;
+	font-size: 10px;
+}
+[class$=r] {
+	background-color: magenta;
+}
+[class*="a"]:not([class$=r]){
+	background-color: blue;
 }
