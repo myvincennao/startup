@@ -1,14 +1,125 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="stylesheets/reset.css"> <!--Para sacarle los valores por defecto-->
+	<link rel="stylesheet" type="text/css" href="stylesheets/style1.css">
 </head>
 <body> 
-<h1>My todo list</h1>
-<ul>
-	<li>Levantarse</li>
-	<li>Desayunar</li>
-	<li>Ir a trabajar</li>
-	<li>Estudiar</li>
-</ul>
+	<a name="top"></a> <!--enlace-->
+	<header id="title"> 
+		<h1>Topic 0 HTML CSS </h1>
+		<h2>HTML</h2> 
+	</header>
+	<nav id="menu">
+		<h3>Menu</h3> 
+		<ul>
+			<li><a href="#exercise1">Exercise 1</a></li>
+			<li><a href="#exercise2">Exercise 2</a></li>
+			<li><a href="#exercise3">Exercise 3</a></li>
+			<li><a href="#exercise4">Exercise 4</a></li>	
+			<li><a href="#top">Back to Top</a></li>
+		</ul>
+	</nav>
+	<aside id="lateralbar">
+		<p>Esta es la barra lateral</p>
+	</aside>
+	<section id="container">
+	<article>
+		<header> 
+			<h2><a name="exercise1"></a>Exercise 1</h2>
+		</header>
+		<div class="exercise">
+		<h3>My todo list</h3>
+		<ul>
+			<li>Levantarse</li>
+			<li>Desayunar</li>
+			<li>Ir a trabajar</li>
+			<li>Hacer las compras</li>
+			<li>Pagar los impuestos</li>
+			<li>Visitar a Juan</li>
+			<li>Ir al banco</li>		
+		</ul>
+		</div>
+	</article>
+	<article>
+		<header>
+			<h2><a name="exercise2"></a>Exercise 2</h2>
+		</header>
+		<div class="exercise">
+		<table>
+			<tr>
+				<td>Gasto</td>
+				<td>Cantidad</td>
+			</tr>
+			<tr>
+				<td>Ropa</td>
+				<td>$200</td>
+			</tr>
+			<tr>
+				<td>Comida</td>
+				<td>$250</td>
+			</tr>
+			<tr>
+				<td>Otros</td>
+				<td>$100</td>
+			</tr>
+		</table>
+		</div>
+	</article>
+	<article>
+		<header>
+			<h2><a name="exercise3"></a>Exercise 3</h2>
+		</header>
+		<div class="exercise">
+		<div class="smallbox">
+		<h4>Imagen:</h4>
+			<img src= "http://www.nuevasmascotas.com/wp-content/uploads/2013/02/perro-listo.jpg" width="400"/>
+		</div>
+		<div class="smallbox"
+		<h4>Audio:</h4>
+			<audio controls>
+			<source src= "http://www.w3schools.com/html/horse.ogg" type="audio/ogg"> </audio>
+		</div>
+		<div class="smallbox">
+		<h4>Video:</h4>
+			<video width="400" controls>	
+			<source src="http://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg"></video>	
+		</div>
+		</div>	
+	</article>
+	<article>
+		<header>
+			<h2><a name="exercise4"></a>Exercise 4</h2>	
+		</header>
+		<div class="exercise">
+		<h1>Sign Up</h1>
+		<form>
+			<h3>First Name:</h3>
+				<input name="firstname" type="text" max="20" min="2" required> 
+			<h3>Last Name:</h3>
+				<input name="lastname" type="text" max="30" min="2" required> 
+			<h3>Email:</h3>
+				<input name="email" type="email" required>
+			<h3>Birthday:</h3>
+				<input type="text" pattern="\d{1,2}/\d{1,2}/\d{4}" name="birthdate" value="" placeholder="dd/mm/aaaa"/>
+			<h3>Favourite Sport:</h3>
+				<select name="sport">
+					<option value="Fútbol">Fútbol</option>
+					<option value="Voley">Voley</option>
+					<option value="Handball">Handball</option>
+					<option value="Swimming">Swimming</option>
+				</select>
+			<h3>Bio:</h3>
+				<textarea name="bio" rows="4" cols="50" placeholder="Write a little bio"></textarea>
+			<input type="submit" value="Submit">
+			<input type="submit" value="Clear">
+		</form>
+		</div>
+	</article>
+</section>
+<footer>
+	<p> Footer </p>
+</footer>
 </body>
 </html>
