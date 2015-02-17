@@ -1,0 +1,74 @@
+body {
+	padding:20px; 
+	background-image: url("http://tassi.mx/wp-content/uploads/2013/07/website-background-pattern1.jpg");
+}
+.header h1 {
+	font-size: 20px;
+	display: inline;
+	padding: 10px;
+}
+.header p {
+	margin-top: 0;
+	margin-bottom:10px;
+	padding-left: 25px; 
+	padding-right: 150px;
+	padding-bottom: 20px;
+}
+
+.imagebox {
+	position: relative;
+	padding: 10px;
+}
+.imagebox img {
+	width: 100% !important;
+  	height: auto !important;
+  	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+}
+.imagebox img:hover {
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	-o-filter: grayscale(0%);
+	-ms-filter: grayscale(0%);
+}
+.boxtitle {
+	position: absolute;
+	top: 10px;
+	display: none;
+	background-color: white;
+	opacity: 0.8;
+	width: 96%;
+}
+a:hover + .boxtitle {
+	display: block;
+}
+.boxtitle h2 {
+}
+.columna1 {
+	display: block;
+	width: 100%;
+}
+.columna2 {
+	display: block;
+	width: 50%;
+	float: left;
+}
+.columna3 {
+	display: block;
+	width: 33%;
+	float: left;
+}
+.columna1-3 {
+	display: block;
+	width: 33%;
+	float: left;
+}
+.columna2-3 {
+	display: block;
+	width: 66%;
+	float: left;
+}
