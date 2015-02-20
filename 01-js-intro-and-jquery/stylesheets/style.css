@@ -1,0 +1,19 @@
+section.exercise1 {
+	display: none;
+	text-align: center;
+}
+section {
+	width: 50%;
+	float: left;
+}
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%
+}
+footer h5 {
+	text-align: center;
+}
+article {
+	border-bottom: 1px solid #ccc;
+}
