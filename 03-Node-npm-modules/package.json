@@ -1,0 +1,14 @@
+{
+  "name": "03-Node-npm-modules",
+  "version": "1.0.0",
+  "description": "bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  	"jquery": "2.1.3"
+  }
+}
